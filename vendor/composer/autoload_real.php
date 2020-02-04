@@ -47,8 +47,6 @@ class ComposerAutoloaderInit03bec89f9b35e2fd2459e980cdd42b5a
 
         $loader->register(true);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         if ($useStaticLoader) {
             $includeFiles = Composer\Autoload\ComposerStaticInit03bec89f9b35e2fd2459e980cdd42b5a::$files;
         } else {
@@ -70,13 +68,3 @@ function composerRequire03bec89f9b35e2fd2459e980cdd42b5a($fileIdentifier, $file)
         $GLOBALS['__composer_autoload_files'][$fileIdentifier] = true;
     }
 }
-=======
-        return $loader;
-    }
-}
->>>>>>> e0f3ed187d02ac2e774a93fddf2dc21ca555412f
-=======
-        return $loader;
-    }
-}
->>>>>>> e0f3ed187d02ac2e774a93fddf2dc21ca555412f

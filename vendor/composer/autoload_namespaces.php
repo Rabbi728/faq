@@ -6,11 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-<<<<<<< HEAD
-<<<<<<< HEAD
     'Rize\\UriTemplate' => array($vendorDir . '/rize/uri-template/src'),
-=======
->>>>>>> e0f3ed187d02ac2e774a93fddf2dc21ca555412f
-=======
->>>>>>> e0f3ed187d02ac2e774a93fddf2dc21ca555412f
 );

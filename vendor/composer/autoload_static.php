@@ -6,8 +6,6 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit03bec89f9b35e2fd2459e980cdd42b5a
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
@@ -97,27 +95,10 @@ class ComposerStaticInit03bec89f9b35e2fd2459e980cdd42b5a
         array (
             0 => __DIR__ . '/..' . '/riverline/multipart-parser/src',
         ),
-=======
-=======
->>>>>>> e0f3ed187d02ac2e774a93fddf2dc21ca555412f
-    public static $prefixLengthsPsr4 = array (
-        'R' => 
-        array (
-            'Rabbi\\' => 6,
-        ),
-    );
-
-    public static $prefixDirsPsr4 = array (
-<<<<<<< HEAD
->>>>>>> e0f3ed187d02ac2e774a93fddf2dc21ca555412f
-=======
->>>>>>> e0f3ed187d02ac2e774a93fddf2dc21ca555412f
         'Rabbi\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
-<<<<<<< HEAD
-<<<<<<< HEAD
         'Psr\\SimpleCache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/simple-cache/src',
@@ -220,10 +201,6 @@ class ComposerStaticInit03bec89f9b35e2fd2459e980cdd42b5a
                 0 => __DIR__ . '/..' . '/rize/uri-template/src',
             ),
         ),
-=======
->>>>>>> e0f3ed187d02ac2e774a93fddf2dc21ca555412f
-=======
->>>>>>> e0f3ed187d02ac2e774a93fddf2dc21ca555412f
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -231,13 +208,7 @@ class ComposerStaticInit03bec89f9b35e2fd2459e980cdd42b5a
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit03bec89f9b35e2fd2459e980cdd42b5a::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit03bec89f9b35e2fd2459e980cdd42b5a::$prefixDirsPsr4;
-<<<<<<< HEAD
-<<<<<<< HEAD
             $loader->prefixesPsr0 = ComposerStaticInit03bec89f9b35e2fd2459e980cdd42b5a::$prefixesPsr0;
-=======
->>>>>>> e0f3ed187d02ac2e774a93fddf2dc21ca555412f
-=======
->>>>>>> e0f3ed187d02ac2e774a93fddf2dc21ca555412f
 
         }, null, ClassLoader::class);
     }

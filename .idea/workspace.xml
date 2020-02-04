@@ -59,11 +59,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\laragon\www\FAQ" />
+      <recent name="G:\laragon\www\FAQ\src\Db" />
       <recent name="G:\laragon\www\FAQ\views\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\laragon\www\FAQ\assets\admin" />
+      <recent name="G:\laragon\www\FAQ\secret" />
+      <recent name="G:\laragon\www\FAQ" />
+      <recent name="G:\laragon\www\FAQ\views\pages\Admin\Controler" />
+      <recent name="G:\laragon\www\FAQ\views\elements\ForntEnd" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -90,6 +100,9 @@
       <updated>1580710367235</updated>
       <workItem from="1580710371364" duration="1522000" />
       <workItem from="1580713454834" duration="11880000" />
+      <workItem from="1580746054887" duration="891000" />
+      <workItem from="1580785721524" duration="15652000" />
+      <workItem from="1580805325841" duration="9275000" />
     </task>
     <servers />
   </component>
@@ -101,17 +114,33 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="454" y="178" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1580713261442" />
+    <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580796460624">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1580796460624" />
+    <state x="413" y="126" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1580791483434">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="126" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1580791483434" />
     <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1580710915548">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1580710915548" />
-    <state x="409" y="186" key="NewPhpClassDialog" timestamp="1580726236685">
+    <state x="409" y="186" key="NewPhpClassDialog" timestamp="1580800887642">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="409" y="186" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1580726236685" />
-    <state x="517" y="300" key="NewPhpFileDialog" timestamp="1580727430371">
+    <state x="409" y="186" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1580800887642" />
+    <state x="517" y="300" key="NewPhpFileDialog" timestamp="1580814123813">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="517" y="300" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1580727430371" />
+    <state x="517" y="300" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1580814123813" />
+    <state x="186" y="14" key="SettingsEditor" timestamp="1580788776453">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="186" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1580788776453" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1580814909114">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1580814909114" />
   </component>
 </project>

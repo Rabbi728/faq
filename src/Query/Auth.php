@@ -1,9 +1,5 @@
 <?php
-
-
 namespace Rabbi\Query;
-
-
 use Rabbi\Db\Db;
 
 class Auth extends Db
@@ -12,9 +8,21 @@ class Auth extends Db
         $auth = $this->factory->createAuth();
         return $auth->createUser($data);
     }
-    public function auth_login($data){
+    public function auth_login($email,$pass){
         $auth = $this->factory->createAuth();
-        return $auth->verifyPassword($data['email'],$data['password']);
+        return $auth->verifyPassword($email,$pass);
+    }
+
+    public static function auth_session(){
+        if (!isset($_SESSION['Auth_User']) and empty($_SESSION['Auth_User_details'])){
+            header('location:/views/pages/Admin/login.php');
+        }
+    }
+
+    public static function start_session(){
+        if (!isset($_SESSION)){
+            session_start();
+        }
     }
 
 

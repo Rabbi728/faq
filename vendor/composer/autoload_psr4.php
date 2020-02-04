@@ -6,8 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-<<<<<<< HEAD
-<<<<<<< HEAD
     'libphonenumber\\' => array($vendorDir . '/giggsey/libphonenumber-for-php/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Superbalist\\Flysystem\\GoogleStorage\\' => array($vendorDir . '/superbalist/flysystem-google-storage/src'),
@@ -36,10 +34,4 @@ return array(
     'Firebase\\JWT\\' => array($vendorDir . '/firebase/php-jwt/src'),
     'Firebase\\Auth\\Token\\' => array($vendorDir . '/kreait/firebase-tokens/src/Firebase/Auth/Token'),
     'Fig\\Http\\Message\\' => array($vendorDir . '/fig/http-message-util/src'),
-=======
-    'Rabbi\\' => array($baseDir . '/src'),
->>>>>>> e0f3ed187d02ac2e774a93fddf2dc21ca555412f
-=======
-    'Rabbi\\' => array($baseDir . '/src'),
->>>>>>> e0f3ed187d02ac2e774a93fddf2dc21ca555412f
 );
