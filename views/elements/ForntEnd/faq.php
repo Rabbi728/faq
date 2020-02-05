@@ -1,12 +1,10 @@
 <?php
-use Rabbi\Query\Category;
 use Rabbi\Query\Faq;
 
 $faq = new Faq();
-$category = new Category();
 
-$list_values = $category->get_cat('FAQ Category');
-$faq_lists = $faq->get_faq('FAQ List');
+$list_values = $faq->get('FAQ Category');
+$faq_lists = $faq->get('FAQ List');
 
 ?>
 

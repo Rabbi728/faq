@@ -1,15 +1,13 @@
 <?php
 include_once $_SERVER['DOCUMENT_ROOT'] . "/vendor/autoload.php";
 
-use Rabbi\Query\Auth;
 use Rabbi\Query\Category;
 
-Auth::start_session();
-
-Auth::auth_session();
+Category::start_session();
+Category::auth_session();
 
 $category =  new Category();
-$category_list = $category->get_cat('FAQ Category');
+$category_list = $category->get('FAQ Category');
 
 include_once $_SERVER['DOCUMENT_ROOT'] . "/views/elements/Admin/header.php" ?>
 

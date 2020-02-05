@@ -1,9 +1,11 @@
 <?php
 namespace Rabbi\Query;
 use Rabbi\Db\Db;
+use Rabbi\Traits\Session;
 
 class Auth extends Db
 {
+    use Session;
     public function auth_create($data){
         $auth = $this->factory->createAuth();
         return $auth->createUser($data);
@@ -13,17 +15,6 @@ class Auth extends Db
         return $auth->verifyPassword($email,$pass);
     }
 
-    public static function auth_session(){
-        if (!isset($_SESSION['Auth_User']) and empty($_SESSION['Auth_User_details'])){
-            header('location:/views/pages/Admin/login.php');
-        }
-    }
-
-    public static function start_session(){
-        if (!isset($_SESSION)){
-            session_start();
-        }
-    }
 
 
 }

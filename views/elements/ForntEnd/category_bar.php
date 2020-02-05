@@ -2,7 +2,7 @@
 use Rabbi\Query\Category;
 $category = new Category();
 
-$list_values = $category->get_cat('FAQ Category');
+$list_values = $category->get('FAQ Category');
 ?>
 <section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
 	<ul class="cd-faq__categories">

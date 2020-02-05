@@ -1,19 +1,15 @@
 <?php
 include_once $_SERVER['DOCUMENT_ROOT'] . "/vendor/autoload.php";
 
-use Rabbi\Query\Auth;
 use Rabbi\Query\Faq;
-use Rabbi\Query\Category;
 
-Auth::start_session();
-
-Auth::auth_session();
+Faq::start_session();
+Faq::auth_session();
 
 $faq = new Faq();
-$category = new Category();
 
-$category_list = $category->get_cat('FAQ Category');
-$list_values = $faq->get_faq('FAQ List');
+$category_list = $faq->get('FAQ Category');
+$list_values = $faq->get('FAQ List');
 
 
 include_once $_SERVER['DOCUMENT_ROOT'] . "/views/elements/Admin/header.php" ?>
@@ -64,7 +60,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . "/views/elements/Admin/header.php" ?>
                             <td><?= $list_value['question'] ?></td>
                             <td><?= substr($list_value['answer'],0,12) ?></td>
                             <td><?php
-                                $category_value = $category->get_cat('FAQ Category/' . $list_value['category']);
+                                $category_value = $faq->get('FAQ Category/' . $list_value['category']);
                                 echo $category_value['cat_name'];
                                 ?></td>
                             <td>

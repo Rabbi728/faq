@@ -12,11 +12,15 @@ class Db
     protected $factory;
     public function __construct()
     {
-        $this->factory = (new Factory)
-            ->withServiceAccount($_SERVER['DOCUMENT_ROOT'] . '/secret/faq-application-5451907f7157.json')
-            ->withDatabaseUri('https://faq-application.firebaseio.com/');
-    
-        $this->dbh = $this->factory->createDatabase();
+        try {
+            $this->factory = (new Factory)
+                ->withServiceAccount($_SERVER['DOCUMENT_ROOT'] . '/secret/faq-application-5451907f7157.json')
+                ->withDatabaseUri('https://faq-application.firebaseio.com/');
+
+            $this->dbh = $this->factory->createDatabase();
+        }catch (PDOException $e){
+            $e->getMessage();
+        }
     }
 
 }

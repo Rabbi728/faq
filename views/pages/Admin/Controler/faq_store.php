@@ -1,12 +1,10 @@
 <?php
 include_once $_SERVER['DOCUMENT_ROOT'] . "/vendor/autoload.php";
-use Rabbi\Query\Auth;
-
-Auth::start_session();
-
-Auth::auth_session();
 
 use Rabbi\Query\Faq;
+
+Faq::start_session();
+Faq::auth_session();
 
 $faq = new Faq();
 
